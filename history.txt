@@ -1,0 +1,100 @@
+    1  git config --global user.name "phillipnkosi469"
+    2  git config --global user.email "phillipnkosi469@gmail.com"
+    3  mkdirgit-basic-exercises
+    4  mkdir git-basic-exercises
+    5  cd git-basic-exercises
+    6  ls -a
+    7  git init
+    8  ls -a
+    9  git branch
+   10  git branch main master
+   11  git branch -m master main
+   12  git push -u origin main
+   13  ls
+   14  clear
+   15  ls -a
+   16  git init
+   17  ls -a
+   18  git status
+   19  touch README.md
+   20   ls -a
+   21  git status
+   22  git log
+   23  git add
+   24  git add README.md
+   25  git status
+   26  git reset HEAD  README.md
+   27  git reset HEAD -- README.md
+   28  git status
+   29  git commit -m "Initial commit"
+   30  git add README.md
+   31  git status
+   32  git commit -m "Initial commit"
+   33  git log
+   34  q
+   35  clear
+   36   nano README.md
+   37  cat README.md
+   38  git status
+   39  git add README.md
+   40  git commit -m "second commit"
+   41  git log
+   42  nano README.md
+   43  git status
+   44  git add README.md
+   45  git commit -m "third commit"
+   46  git log
+   47  git checkout 0f214ad60990755f43968fcebd82550dabf3c12f
+   48  cat README.md
+   49  git checkout main
+   50  cat README.md
+   51  git branch
+   52  git branch milkshake-flavours
+   53  git branch
+   54  git checkout milkshake-flavours
+   55  git branch
+   56  nano milkshakes.md
+   57  git status
+   58  git add milkshakes.md
+   59  git commit -m "added initial flavors"
+   60  git log
+   61  git checkout main
+   62  git checkout -b history
+   63  git checkout history
+   64  git log
+   65  git log > history.txt
+   66  git commit -am "added history"
+   67  git log
+   68  git checkout milkshake-flavours
+   69  git log
+   70  git status
+   71  git log
+   72  nano README.md
+   73  git status
+   74  git add  README.md
+   75  git commit -am "random readme changes"
+   76  git checkout history
+   77  cat README.md
+   78  rm README.md
+   79  echo "booya" > README.md
+   80  git add README.md
+   81  git commit -m "rewrote readme"
+   82  git checkout main
+   83  git checkout main
+   84  ls
+   85  git log
+   86  git checkout milkshake-flavours
+   87  ls
+   88  git log
+   89  git checkout milkshake-flavours
+   90  ls
+   91  git checkout main
+   92  git branch
+   93  git checkout history
+   94  git log
+   95  git checkout history
+   96  git reset --hard HEAD~1
+   97  git log
+   98  git checkout -b history
+   99  git log
+  100  history > history.txt
